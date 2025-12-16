@@ -55,9 +55,6 @@ const ProjectDetail = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             {project.title}
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-            {project.description}
-          </p>
         </div>
 
         {/* Image Carousel */}
@@ -125,19 +122,11 @@ const ProjectDetail = () => {
               </div>
             </div>
 
-            {/* What I Learned */}
+            {/* Project Description */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">What I Learned</h2>
+              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Description</h2>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                {project.learned}
-              </p>
-            </div>
-
-            {/* Challenges Solved */}
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Challenges Solved</h2>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                {project.challenges}
+                {project.description}
               </p>
             </div>
           </div>

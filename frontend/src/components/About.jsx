@@ -71,9 +71,6 @@ const About = () => {
                   <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="text-lg font-bold text-gray-900 dark:text-white">{edu.level}</h4>
-                      <span className="text-xs font-medium text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-700 px-3 py-1 rounded-full">
-                        {edu.status}
-                      </span>
                     </div>
                     <p className="text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">{edu.degree}</p>
                     <p className="text-sm text-gray-600 dark:text-gray-400">{edu.school}</p>
@@ -107,7 +104,7 @@ const About = () => {
         {/* Skills with Logos */}
         <div className="mb-20">
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Technical Skills</h3>
-          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
             {skills.map((skill, index) => (
               <div 
                 key={index} 
