@@ -15,7 +15,7 @@ const About = () => {
   const education = [
     {
       level: 'College',
-      degree: 'Bachelor of Science in Computer Science',
+      degree: 'Bachelor of Science in Information Technology',
       school: 'Our Lady of Fatima University',
       year: '2022 - 2026',
       status: 'Graduating'
@@ -49,9 +49,6 @@ const About = () => {
         <div className="text-center mb-16">
           <span className="text-sm font-medium text-gray-500 dark:text-gray-400 tracking-wider uppercase">About Me</span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-4 mb-6">Who I Am</h2>
-          <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            A passionate full-stack developer who loves solving complex problems and building products that make a difference
-          </p>
         </div>
 
         {/* Main Content - Education & Personal Info */}
@@ -86,16 +83,10 @@ const About = () => {
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">About Me</h3>
             <div className="space-y-6">
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                I'm a software engineer with <strong>3+ years of experience</strong> specializing in full-stack web development. 
-                My passion lies in creating elegant, performant applications that solve real-world problems.
+                I am a BSIT student at Our Lady of Fatima University with a strong interest in web development. I enjoy building projects that allow me to test my skills, improve my logical thinking, and apply what I learn in real situations. Creating systems from scratch helps me grow as a developer and gain confidence in my work.
               </p>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                I believe in writing clean, maintainable code and staying up-to-date with the latest technologies. 
-                My approach combines technical expertise with a deep understanding of user experience.
-              </p>
-              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                When I'm not coding, you'll find me contributing to open-source projects, writing technical articles, 
-                or mentoring aspiring developers in the community.
+                I also take commissions from fellow students, where I help create web development projects and assist with assignments. This experience allows me to practice working with different requirements while improving my problem-solving skills and understanding of real client needs.
               </p>
             </div>
           </div>
@@ -103,7 +94,7 @@ const About = () => {
 
         {/* Skills with Logos */}
         <div className="mb-20">
-          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Technical Skills</h3>
+          <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 ">Technologies I Work With</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
             {skills.map((skill, index) => (
               <div 

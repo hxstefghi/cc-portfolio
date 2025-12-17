@@ -5,12 +5,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-8">
           <div className="text-center md:text-left">
             <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Christian Catuday</h3>
+            <p className="text-black dark:text-white text-sm">Full Stack Developer</p>
           </div>
           
           {/* Social Media Links */}
           <div className="flex gap-4">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/hxstefghi" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-gray-900 hover:text-white transition-all group"
@@ -21,7 +22,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="https://linkedin.com/in/yourprofile" 
+              href="https://linkedin.com/in/christian-catuday-627991318" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all"
@@ -32,7 +33,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="https://facebook.com/yourprofile" 
+              href="https://facebook.com/Senpai.Christian1" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-blue-700 hover:text-white transition-all"
@@ -43,7 +44,7 @@ const Footer = () => {
               </svg>
             </a>
             <a 
-              href="https://instagram.com/yourprofile" 
+              href="https://instagram.com/hxstee" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center hover:bg-pink-600 hover:text-white transition-all"

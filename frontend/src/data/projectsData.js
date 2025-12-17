@@ -2,7 +2,8 @@ export const projectsData = [
   {
     id: 1,
     title: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with real-time inventory management, payment integration, and admin dashboard. Built to handle high traffic with optimized performance.",
+    short_description: "A full-stack e-commerce application with product browsing, cart, and secure checkout. Users can apply discount coupons at checkout and track their orders through a detailed order history.",
+    full_description: "A full-stack e-commerce web application designed to deliver a smooth and user-friendly online shopping experience. The platform allows users to browse products, manage their cart, and complete a secure checkout process. During checkout, users can apply discount coupons to reduce the total price, providing flexible promotional support. Each user has access to an order history page where they can track past purchases and monitor the status of their orders. The system ensures proper data handling and user flow from product selection to order completion, making it a practical and scalable solution for modern online stores.",
     category: "Full-Stack",
     techStack: ["React", "Node.js", "MongoDB", "Express", "Tailwind", "Rechart"],
     liveDemo: "https://shoply-ecommerce-rose.vercel.app/",
@@ -17,10 +18,11 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Hydrofarm Monitoring System",
-    description: "Smart task management application with AI-powered priority suggestions and natural language processing for task creation. Features intelligent scheduling and deadline predictions.",
+    title: "IoT Hydrofarm Monitoring System",
+    short_description: "Smart hydroponic monitoring system that tracks temperature, humidity, and pH levels using a trained model to detect unhealthy conditions and send real-time email alerts.",
+    full_description: "A smart hydroponic monitoring system that tracks temperature, humidity, and pH levels in real time. It uses a trained predictive model to learn healthy threshold values and automatically detects unsafe conditions. When sensor readings go above or below optimal levels, the system instantly sends email alerts to ensure timely action and healthy plant growth.",
     category: "Web App",
-    techStack: ["React", "Node.js", "MongoDB", "Express", "Tailwind", "Rechart"],
+    techStack: ["React", "Node.js", "MongoDB", "Express", "Tailwind", "Rechart", "Nodemailer"],
     liveDemo: "https://hydrofarm-app.vercel.app/",
     github: "https://github.com/yourusername/ai-tasks",
     images: [
@@ -34,7 +36,8 @@ export const projectsData = [
   {
     id: 3,
     title: "SnapStrip",
-    description: "Collaborative whiteboard application with video chat, real-time drawing, and document sharing capabilities. Supports multiple concurrent users with low latency.",
+    short_description: "An online photostrip app that captures 4 photos, applies filters, customizes frames and text, and lets users download their personalized photostrip instantly.",
+    full_description: "An online photostrip application that lets users capture 4 consecutive shots, apply photo filters, customize the frame color, and add personalized text. After editing, users can easily download their photostrip, recreating a fun and modern photobooth experience directly from the browser.",
     category: "Web App",
     techStack: ["React", "Tailwind"],
     liveDemo: "https://snapstrip-photobooth.vercel.app/",

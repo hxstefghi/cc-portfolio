@@ -69,7 +69,7 @@ const ProjectCard = ({ project, index }) => {
       <div className="p-6 flex flex-col flex-grow">
         <div className="mb-4">
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-gray-600 dark:group-hover:text-gray-300 transition-colors">{project.title}</h3>
-          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{project.description}</p>
+          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">{project.short_description}</p>
         </div>
         
         {/* Tech Stack Badges */}

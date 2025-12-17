@@ -85,7 +85,7 @@ const Contact = () => {
           <span className="text-sm font-medium text-gray-500 dark:text-gray-400 tracking-wider uppercase">Get In Touch</span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-4 mb-6">Let's Work Together</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Have a project in mind? Let's discuss how I can help bring your ideas to life
+            Have a question or want to work together? Feel free to reach out me. I’m open to new projects, collaborations, and opportunities to learn and grow.
           </p>
         </div>
 

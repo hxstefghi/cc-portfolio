@@ -9,7 +9,7 @@ const Projects = () => {
           <span className="text-sm font-medium text-gray-500 dark:text-gray-400 tracking-wider uppercase">Portfolio</span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mt-4 mb-6">Featured Projects</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            A collection of my recent work showcasing various technologies and solutions
+            Projects I’ve built to practice my skills, solve problems, and create modern applications.
           </p>
         </div>
 
