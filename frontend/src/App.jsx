@@ -16,6 +16,7 @@ function HomePage({ scrollToSection }) {
       <Hero scrollToSection={scrollToSection} />
       <About />
       <Projects />
+      <Skills />
       <Contact />
       <Footer />
     </>

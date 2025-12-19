@@ -14,34 +14,48 @@ const Skills = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {certificatesData.map((cert) => (
-            <div key={cert.id} className="bg-white dark:bg-gray-800 rounded-2xl shadow-sm hover:shadow-xl transition-all overflow-hidden group flex flex-col">
-              <div className="h-48 bg-gradient-to-br from-gray-800 to-gray-900 dark:from-gray-700 dark:to-gray-800 flex items-center justify-center">
-                <div className="text-white text-center p-6">
-                  <div className="text-5xl mb-4">🏆</div>
-                  <h3 className="text-lg font-bold">{cert.name}</h3>
-                </div>
+            <div key={cert.id} className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600 transition-all overflow-hidden group flex flex-col">
+              {/* Certificate Image */}
+              <div className="aspect-video bg-gray-100 dark:bg-gray-900 overflow-hidden">
+                <img 
+                  src={cert.image} 
+                  alt={cert.name}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
+              
+              {/* Content */}
               <div className="p-6 flex flex-col flex-grow">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="text-sm font-semibold text-gray-900 dark:text-white">{cert.issuer}</div>
-                  <div className="text-xs text-gray-500 dark:text-gray-400">{cert.date}</div>
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 line-clamp-2">
+                  {cert.name}
+                </h3>
+                
+                <div className="flex items-center justify-between mb-3 text-sm">
+                  <span className="text-gray-600 dark:text-gray-400">{cert.issuer}</span>
+                  <span className="text-gray-500 dark:text-gray-500 text-xs">{cert.date}</span>
                 </div>
+                
                 <div className="flex flex-wrap gap-2 mb-4">
                   {cert.skills.map((skill, idx) => (
-                    <span key={idx} className="text-xs px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full">
+                    <span key={idx} className="text-xs px-2.5 py-1 bg-gray-50 dark:bg-gray-900 text-gray-700 dark:text-gray-300 rounded-md border border-gray-200 dark:border-gray-700">
                       {skill}
                     </span>
                   ))}
                 </div>
-                <div className="text-xs text-gray-500 dark:text-gray-400 mb-4">ID: {cert.credentialId}</div>
-                <a 
-                  href={cert.verifyUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full text-center py-2 px-4 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors text-sm font-medium mt-auto"
-                >
-                  View Certificate
-                </a>
+                
+                <div className="mt-auto pt-4 border-t border-gray-100 dark:border-gray-700">
+                  <a 
+                    href={cert.verifyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors group/link"
+                  >
+                    <span>View Certificate</span>
+                    <svg className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </a>
+                </div>
               </div>
             </div>
           ))}
