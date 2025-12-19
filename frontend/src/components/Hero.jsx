@@ -48,7 +48,7 @@ const Hero = ({ scrollToSection }) => {
             <div className="relative">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/me.jpg" 
+                  src="/images/formal-picture.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
