@@ -1,0 +1,32 @@
+.snowfall {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+
+.snowflake {
+  position: absolute;
+  top: -8px;
+  user-select: none;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.snow-dot {
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(100vh);
+  }
+}
