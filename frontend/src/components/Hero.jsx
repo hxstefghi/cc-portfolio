@@ -22,7 +22,7 @@ const Hero = ({ scrollToSection }) => {
                 View Projects
               </button>
               <a 
-                href="/CC-Resume.pdf" 
+                href="/CC_Resume.pdf" 
                 download="Christian_Catuday_Resume.pdf"
                 className="px-6 py-3 border-2 border-gray-900 text-gray-900 text-sm font-medium rounded-lg dark:border-white dark:text-white hover:bg-gray-900 hover:text-white transition-all"
               >
