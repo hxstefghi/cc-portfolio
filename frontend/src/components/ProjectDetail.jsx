@@ -126,7 +126,11 @@ const ProjectDetail = () => {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Description</h2>
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                {project.full_description}
+                {project.full_description.split('\n\n').map((paragraph, idx) => (
+                  <p key={idx} style={{ marginBottom: '1em' }}>
+                    {paragraph}
+                  </p>
+                ))}
               </p>
             </div>
           </div>
