@@ -1,5 +1,4 @@
 import './App.css'
-import Snowfall from './components/Snowfall';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -32,7 +31,7 @@ function App() {
   return (
     <BrowserRouter>
       <title>CC's Portfolio</title>
-      <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-300">
+      <div className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-200">
         <Routes>
           <Route path="/" element={<HomePage scrollToSection={scrollToSection} />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
