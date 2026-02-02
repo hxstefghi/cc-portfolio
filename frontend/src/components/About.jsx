@@ -36,7 +36,7 @@ const About = () => {
 
           {/* Skills */}
           <div>
-            <h3 className="text-sm font-medium text-gray-900 dark:text-white mb-6 tracking-tight">Technologies</h3>
+            <h3 className="text-sm font-medium text-gray-900 dark:text-white mb-6 tracking-tight">Tech Stack I Used</h3>
             <div className="grid grid-cols-5 md:grid-cols-10 gap-6">
               {skills.map((skill, index) => (
                 <div
