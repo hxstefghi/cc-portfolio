@@ -37,20 +37,22 @@ const About = () => {
           {/* Skills */}
           <div>
             <h3 className="text-sm font-medium text-gray-900 dark:text-white mb-6 tracking-tight">Tech Stack I Used</h3>
-            <div className="grid grid-cols-5 md:grid-cols-10 gap-6">
+            <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-8">
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center gap-2 group"
-                  title={skill.name}
+                  className="flex flex-col items-center gap-3 group"
                 >
-                  <div className="w-10 h-10 flex items-center justify-center">
+                  <div className="w-12 h-12 flex items-center justify-center">
                     <img
                       src={skill.logo}
                       alt={skill.name}
-                      className="w-full h-full object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-200"
+                      className="w-full h-full object-contain transition-all duration-200"
                     />
                   </div>
+                  <span className="text-xs text-gray-600 dark:text-gray-400 font-light text-center">
+                    {skill.name}
+                  </span>
                 </div>
               ))}
             </div>
