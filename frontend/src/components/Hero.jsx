@@ -80,7 +80,7 @@ const Hero = ({ scrollToSection }) => {
             <div className="relative">
               <div className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-800">
                 <img
-                  src="/images/formal-picture.jpg"
+                  src="/images/me_2.jpg"
                   alt="Christian Catuday"
                   className="w-full h-full object-cover"
                 />
