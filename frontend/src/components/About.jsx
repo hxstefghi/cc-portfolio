@@ -24,13 +24,7 @@ const About = () => {
           {/* Bio */}
           <div className="space-y-4">
             <p className="text-base text-gray-700 dark:text-gray-300 leading-relaxed font-light">
-              I'm a full-stack developer currently pursuing a Bachelor of Science in Information Technology
-              at Our Lady of Fatima University. I specialize in building modern web applications with a focus
-              on clean code, performance, and user experience.
-            </p>
-            <p className="text-base text-gray-700 dark:text-gray-300 leading-relaxed font-light">
-              My work emphasizes simplicity and functionality, creating solutions that are both practical
-              and maintainable.
+              I'm a web developer who likes turning ideas into real, working applications. I enjoy the whole process of building something from scratch and making sure it feels good to use. I keep my code clean, my designs simple, and my focus on what actually matters to the user.
             </p>
           </div>
 
@@ -73,7 +67,7 @@ const About = () => {
               <div>
                 <div className="flex justify-between items-start mb-1">
                   <h4 className="text-base font-medium text-gray-900 dark:text-white">STEM</h4>
-                  <span className="text-sm text-gray-500 dark:text-gray-500 font-light">2016 - 2018</span>
+                  <span className="text-sm text-gray-500 dark:text-gray-500 font-light">2020 - 2022</span>
                 </div>
                 <p className="text-sm text-gray-600 dark:text-gray-400 font-light">Our Lady of Fatima University</p>
               </div>

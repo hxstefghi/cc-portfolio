@@ -13,15 +13,11 @@ const Hero = ({ scrollToSection }) => {
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold text-gray-900 dark:text-white tracking-tight leading-[1.1]">
                 Christian Catuday
               </h1>
-              <p className="text-xl md:text-2xl text-gray-500 dark:text-gray-400 font-light">
-                Full-Stack Developer
-              </p>
             </div>
 
             {/* Description */}
             <p className="text-base md:text-lg text-gray-600 dark:text-gray-400 max-w-2xl leading-relaxed font-light mx-auto md:mx-0">
-              Building clean, functional applications with modern technologies.
-              Focused on simplicity, performance, and user experience.
+              I build clean and functional web apps using modern tools. I care about making things simple, fast, and easy to use.
             </p>
 
             {/* CTA Buttons */}
@@ -33,14 +29,14 @@ const Hero = ({ scrollToSection }) => {
                 View Work
                 <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform duration-200" />
               </button>
-              <a
+              {/* <a
                 href="/CC_Resume.pdf"
                 download="Christian_Catuday_Resume.pdf"
                 className="inline-flex items-center gap-2 px-6 py-2.5 border border-gray-300 dark:border-gray-700 text-gray-900 dark:text-white text-sm font-medium rounded-lg hover:bg-gray-50 dark:hover:bg-gray-900 transition-all duration-200"
               >
                 <Download size={16} />
                 Resume
-              </a>
+              </a> */}
             </div>
 
             {/* Social Links */}
